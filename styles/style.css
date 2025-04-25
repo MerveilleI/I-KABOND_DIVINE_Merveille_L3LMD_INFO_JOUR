@@ -1,0 +1,246 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: white;
+	font-size: 14px;
+	font-family: arial;
+	margin: 10px;
+}
+
+header{
+	background: white;
+	margin-left: 200px;
+	margin-top: 30px;
+	margin-right: 10px;
+
+}
+
+header nav{
+	float: right;
+    padding-right: 30px;
+}
+
+
+header nav ul a{
+    text-decoration: none;
+    color: blue;
+}
+
+header nav ul a:hover{
+	background: #ede7e6;
+	padding: 10px;
+	border-radius: 10px;
+	color: red;
+}
+
+header nav ul{
+    list-style: none; /*Retire les tirê*/
+    display: flex; /*covertir une liste verticale en horizontal*/
+    gap: 15px;
+}
+
+img{
+   width: 120px;
+   padding-top: 10px;
+   padding-left: 10px; 
+   
+}
+
+.img1{
+	padding: 20px;
+	margin: 30px;
+	border-radius: 60px;
+	font-size: 16px;
+	width: 20%;
+}
+
+.img2{
+
+	padding: 20px;
+	margin: 30px;
+	border-radius: 60px;
+	font-size: 16px;
+
+}
+
+h1{
+	margin-left: ;
+	color: #e6220d;
+	background: #ede7e6;
+	text-align: center;
+}
+
+.paragraphe1{
+	background: #4ea0e5;
+	text-align: center;
+	margin: 10px;
+	border-radius: 90%;
+	padding: 60px;
+	border: 1px solid #f7e625;
+	color: #f6f8fa;
+}
+
+.paragraphe1:hover{
+	background: #ede7e6;
+	color: black;
+	
+}
+
+h2{
+	margin-top: 1px;
+	color: #e6220d;
+	background: #ede7e6;
+	text-align: center;
+}
+authentification{ /*ceci est la partie du titre de notre login*/
+	margin-left: ;
+	color: #e6220d;
+	background: #ede7e6;
+	text-align: center;
+}
+
+
+.login{	/*ceci est la partie du form de notre login*/
+	background: white;
+	width: 35%;
+	padding: 20px;
+	margin-left: 35%;
+	margin-top: 100px;
+	margin-bottom: 300px;
+	box-shadow: 2px 2px 2px 2px;
+}
+.plogin{ /*ceci est la partie du paragraphe de notre login*/
+	color: gray;
+	text-align: center;
+}
+.btn{
+	padding: 8px;
+	margin: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	width: 100%;
+	background: #2bc8d6;
+	border: none;
+	color: white;
+}
+
+.btn:hover{
+	color: #2bc8d6;
+	background: red;
+	border: #2bc8d6;
+}
+input[type=email]{
+	padding: 8px;
+	margin: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	width: 96%;
+}
+
+input[type=password]{
+	padding: 8px;
+	margin: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.btnvisite{
+	padding: 10px;
+	border-radius: 16px;
+	border: none;
+	font-size: 16px;
+	width: 280px;
+	height: 60px;
+	background: #2bc8d6;
+	margin-right: 40%;
+	margin-left: 40%;
+	margin-bottom: 2%;
+	color: white;
+	font-family: arial;
+}
+
+.btnvisite:hover{
+	color: #2bc8d6;
+	background: red;
+}
+
+
+.message{
+    width: 400px;
+    height: 80px;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+
+}
+
+.envoyer{
+    background: #2bc8d6;
+	border: none; 
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    color: white;
+	font-size: 16px;
+	
+}
+
+.envoyer:hover{
+    background: red;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 7px;  
+}
+
+.champ{
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+}
+
+
+
+
+
+.produits {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.produit {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.produit img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-r
+  height: 10%;
+}
+
+footer{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+}
+
+
+.div-appropos{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
